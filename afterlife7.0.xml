@@ -10,5 +10,5 @@
     <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="halah_jembod" revision="lineage-21" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="halah_jembod" revision="lineage-21" />>
     <!-- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="halah_jembod" revision="lineage-21" /> -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="halah_jembod" revision="lineage-21" />
+    <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="halah_jembod" revision="lineage-21" /> -->
 </manifest>
