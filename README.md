@@ -4,7 +4,7 @@
 ```bash
 git clone https://github.com/ctrhyz/local_manifests .repo/local_manifests
 ```
-### Sync
+## Sync
 ```bash
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
