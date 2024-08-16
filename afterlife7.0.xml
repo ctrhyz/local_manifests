@@ -1,10 +1,9 @@
-<!-- For Rosemary | Redmi Note 10S -->
-<!-- Credit @ctrhyz | Zakaria -->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- For Rosemary | Redmi Note 10S -->
+    <!-- Credit @ctrhyz | Zakaria -->
     <!-- Remote -->
-    <remote name="halah_jembod" fetch="https://github.com/ctrhyz" clone-depth="1" />
-
+    <remote name="halah_jembod" fetch="https://github.com/ctrhyz/" clone-depth="1" />
     <!-- Trees -->
     <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="halah_jembod" revision="lineage-21" />
     <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="halah_jembod" revision="lineage-21" />
