@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- For Rosemary | Redmi Note 10S -->
-    <!-- Credit @ctrhyz | Zakaria -->
+    <!-- Credit @zxh_stuff | Zakaria -->
     <!-- Remote -->
-    <remote name="halah_jembod" fetch="https://github.com/ctrhyz/" clone-depth="1" />
+    <remote name="halah_jembod" fetch="https://github.com/ctrhyz/" />
+    <remote name="njir" fetch="https://github.com/AfterlifeOS/" />
     <!-- Trees -->
     <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="halah_jembod" revision="lineage-21" />
     <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="halah_jembod" revision="lineage-21" />
     <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="halah_jembod" revision="lineage-21" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="halah_jembod" revision="lineage-21" />>
-    <!-- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="halah_jembod" revision="lineage-21" /> -->
-    <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="halah_jembod" revision="lineage-21" /> -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="halah_jembod" revision="lineage-21" />
+    <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="njir" revision="14" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="halah_jembod" revision="lineage-21" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="halah_jembod" revision="lineage-21" />
 </manifest>
