@@ -4,7 +4,7 @@
     <!-- Credit @zxh_stuff | Zakaria -->
     <!-- Remote -->
     <remote name="halah_jembod" fetch="https://github.com/ctrhyz/" />
-    <remote name="njir" fetch="https://github.com/AfterlifeOS/" />
+    <!-- <remote name="njir" fetch="https://github.com/AfterlifeOS/" /> -->
     <!-- Trees -->
     <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="halah_jembod" revision="lineage-21" />
     <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="halah_jembod" revision="lineage-21" />
